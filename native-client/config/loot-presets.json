@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "description": "可修改的本地预设，不是原服务器掉率。三档绑定原地图的休闲、经典、困难场景变体。",
+  "difficulty_map": {"1": [10101, 10201], "2": [10102, 10202], "3": [10103, 10203]},
+  "second_floor": {
+    "equipment_chance": {"normal": 50, "elite": 75, "boss": 100, "chest": 75, "gold_chest": 100},
+    "rarity_weights": {
+      "1": {"3": 20, "4": 45, "5": 29, "8": 5, "6": 1},
+      "2": {"4": 25, "5": 50, "8": 15, "6": 8, "7": 2},
+      "3": {"5": 40, "8": 30, "6": 23, "7": 7}
+    }
+  },
+  "difficulties": {
+    "1": {
+      "equipment_chance": {"normal": 35, "elite": 85, "boss": 100, "shadow_boss": 100, "chest": 60, "gold_chest": 100},
+      "rarity_weights": {"1": 40, "2": 35, "3": 18, "4": 6, "5": 1, "6": 0, "7": 0, "8": 0},
+      "elite_weights": {"1": 5, "2": 18, "3": 42, "4": 24, "5": 10, "6": 1, "7": 0, "8": 0},
+      "elite_bonus": {"3": 50},
+      "boss_weights": {"1": 0, "2": 0, "3": 25, "4": 45, "5": 25, "6": 5, "7": 0, "8": 0},
+      "boss_bonus": {"3": 50, "4": 100},
+      "shadow_boss_weights": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 85, "7": 15, "8": 0},
+      "shadow_boss_bonus": {"5": 100, "6": 50},
+      "gold_chest_weights": {"1": 0, "2": 15, "3": 40, "4": 30, "5": 13, "6": 2, "7": 0, "8": 0},
+      "gold_chest_bonus": {"3": 75, "4": 50},
+      "potion_chance": 10, "material_chance": 15
+    },
+    "2": {
+      "equipment_chance": {"normal": 55, "elite": 100, "boss": 100, "shadow_boss": 100, "chest": 80, "gold_chest": 100},
+      "rarity_weights": {"1": 15, "2": 30, "3": 30, "4": 18, "5": 6, "6": 0, "7": 0, "8": 1},
+      "elite_weights": {"1": 0, "2": 10, "3": 30, "4": 35, "5": 19, "6": 4, "7": 1, "8": 1},
+      "elite_bonus": {"4": 70},
+      "boss_weights": {"1": 0, "2": 0, "3": 0, "4": 15, "5": 45, "6": 30, "7": 8, "8": 2},
+      "boss_bonus": {"4": 65, "5": 100},
+      "shadow_boss_weights": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 65, "7": 35, "8": 0},
+      "shadow_boss_bonus": {"5": 100, "6": 85, "7": 25},
+      "gold_chest_weights": {"1": 0, "2": 0, "3": 8, "4": 23, "5": 35, "6": 25, "7": 7, "8": 2},
+      "gold_chest_bonus": {"4": 85, "5": 50},
+      "potion_chance": 15, "material_chance": 20
+    },
+    "3": {
+      "equipment_chance": {"normal": 75, "elite": 100, "boss": 100, "shadow_boss": 100, "chest": 100, "gold_chest": 100},
+      "rarity_weights": {"1": 0, "2": 10, "3": 25, "4": 35, "5": 22, "6": 1.5, "7": 0.5, "8": 6},
+      "elite_weights": {"1": 0, "2": 0, "3": 10, "4": 27, "5": 39, "6": 12, "7": 5, "8": 7},
+      "elite_bonus": {"5": 85},
+      "boss_weights": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 58, "7": 42, "8": 0},
+      "boss_bonus": {"5": 100, "6": 70},
+      "shadow_boss_weights": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 45, "7": 55, "8": 0},
+      "shadow_boss_bonus": {"5": 100, "6": 100, "7": 65},
+      "gold_chest_weights": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 65, "7": 35, "8": 0},
+      "gold_chest_bonus": {"5": 100, "6": 40},
+      "potion_chance": 20, "material_chance": 25
+    }
+  },
+  "gold_chest_source_ids": [155, 156, 157, 158, 298],
+  "boss_source_ids": [240, 241, 247, 248, 249, 254, 255],
+  "shadow_boss_source_ids": [212, 265],
+  "elite_source_ids": [83, 84, 100, 104, 105, 125, 242, 243, 244, 245, 246, 250, 251, 252, 253, 280, 294, 301, 302],
+  "summoned_name_fragments": ["Summon", "VirtualMonster", "Monster_Bot", "Monster_Player"],
+  "equipment_rolls": {"normal": 1, "elite": 1, "boss": 1, "chest": 2, "gold_chest": 1}
+}
